@@ -39,9 +39,9 @@ function Navbar() {
 
       <div className={`links ${mobileMenuOpen ? "mobile-open" : ""}`}>
         <Link to="/">Home</Link>
-        <Link to="#exchanges">Features</Link>
-        <Link to="#news">Pricing</Link>
-        <Link to="#contact">Blog</Link>
+        <Link to="/features">Features</Link>
+        <Link to="pricing">Pricing</Link>
+        <Link to="/blog">Blog</Link>
       </div>
 
       <div className="auth-buttons">
