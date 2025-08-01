@@ -170,10 +170,6 @@ This application uses the **CoinGecko API** for cryptocurrency data:
 - ✅ Market statistics and rankings
 - ✅ No authentication required for demo usage
 
-## 📱 Responsive Design
-
-The application is fully responsive with optimized layouts.
-
 ## 🔄 State Management
 
 ### Context API Structure
