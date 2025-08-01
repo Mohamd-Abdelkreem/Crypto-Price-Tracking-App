@@ -174,25 +174,6 @@ This application uses the **CoinGecko API** for cryptocurrency data:
 
 The application is fully responsive with optimized layouts.
 
-## 🎨 Design Features
-
-### Color Scheme
-- **Primary**: Dark gradient background (#111113 to #232526)
-- **Secondary**: Blue accent (#1976d2)
-- **Text**: White (#ffffff) with gray variants
-- **Cards**: Dark theme (#2c2c2e)
-
-### Typography
-- **Font Family**: Roboto Mono (monospace)
-- **Responsive Font Sizes**: Scales from 0.75rem to 3rem
-- **Font Weights**: 100-700 range
-
-### UI Components
-- **Gradient Backgrounds**: Linear gradients for visual appeal
-- **Rounded Corners**: 8px border radius for modern look
-- **Hover Effects**: Smooth transitions and color changes
-- **Loading States**: Proper feedback for async operations
-
 ## 🔄 State Management
 
 ### Context API Structure
