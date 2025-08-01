@@ -1,0 +1,89 @@
+.not-found {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  /* background-color: #f8f9fa; */
+  color: white;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.not-found h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.not-found p {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  max-width: 600px;
+}
+
+/* Responsive Design */
+/* Tablet styles */
+@media screen and (max-width: 1024px) {
+  .not-found {
+    padding: 40px 16px;
+  }
+  
+  .not-found h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+  }
+  
+  .not-found p {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .not-found {
+    padding: 30px 15px;
+  }
+  
+  .not-found h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .not-found p {
+    font-size: 1.1rem;
+    max-width: 90%;
+  }
+}
+
+/* Small mobile styles */
+@media screen and (max-width: 480px) {
+  .not-found {
+    padding: 20px 12px;
+  }
+  
+  .not-found h1 {
+    font-size: 1.75rem;
+    margin-bottom: 12px;
+  }
+  
+  .not-found p {
+    font-size: 1rem;
+  }
+}
+
+/* Extra small mobile styles */
+@media screen and (max-width: 360px) {
+  .not-found {
+    padding: 15px 10px;
+  }
+  
+  .not-found h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .not-found p {
+    font-size: 0.9rem;
+  }
+}
