@@ -39,7 +39,6 @@
 .coin-name{
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 .coin-image{
     width: 24px;
