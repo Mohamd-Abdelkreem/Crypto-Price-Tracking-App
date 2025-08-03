@@ -14,8 +14,6 @@ A modern, responsive cryptocurrency tracking web application built with React an
 - [API Integration](#-api-integration)
 - [Responsive Design](#-responsive-design)
 - [Scripts](#-scripts)
-- [Developer](#-developer)
-- [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
 ## 🌟 Features
@@ -157,17 +155,6 @@ The application is fully responsive and optimized for different screen sizes:
 | `npm run build` | Build for production |
 | `npm run preview` | Preview production build |
 | `npm run lint` | Run ESLint |
-
-## �👨‍💻 Developer
-
-**Mohamed Abdel Kareem**
-
-- 🌐 **GitHub**: [@Mohamd-Abdelkreem](https://github.com/Mohamd-Abdelkreem)
-- 📧 **Project Repository**: [Crypto-Price-Tracking-App](https://github.com/Mohamd-Abdelkreem/Crypto-Price-Tracking-App)
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
