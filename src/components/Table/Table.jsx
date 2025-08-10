@@ -4,7 +4,7 @@ import { CoinContext } from "../../context/CoinContext";
 import { Link } from "react-router-dom";
 
 function Table({ allSearchedCoins }) {
-  const { allCoins } = useContext(CoinContext);
+  const { allCoins , currency } = useContext(CoinContext);
   function getArrayToRender() {
     if (allSearchedCoins.length > 0) {
       return allSearchedCoins;
@@ -44,8 +44,8 @@ function Table({ allSearchedCoins }) {
                   {coin.name} ({coin.symbol.toUpperCase()})
                 </Link>
               </td>
-              <td>${coin.current_price.toLocaleString()}</td>
-              <td>${coin.market_cap.toLocaleString()}</td>
+              <td>{currency.symbol}{coin.current_price.toLocaleString()}</td>
+              <td>{currency.symbol}{coin.market_cap.toLocaleString()}</td>
               <td
                 style={{
                   color:
